@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E7390A5-B2FF-4B5C-BEB9-83070F2DE630}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>activfilter</RootNamespace>
+    <AssemblyName>activfilter</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsvHelper, Version=27.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>packages\CsvHelper.27.2.1\lib\net47\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.HashCode.1.0.0\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.0\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classlib\Filter\Console\ConsoleClass.cs" />
+    <Compile Include="classlib\Filter\Filter.cs" />
+    <Compile Include="classlib\Filter\Inv\BandPassFilterInverting.cs" />
+    <Compile Include="classlib\Filter\Inv\HighPassFilterInverting.cs" />
+    <Compile Include="classlib\Filter\Inv\LowPassFilterInverting.cs" />
+    <Compile Include="classlib\Filter\NonInv\BandPassFilterNonInverting.cs" />
+    <Compile Include="classlib\Filter\NonInv\HighPassFilterNonInverting.cs" />
+    <Compile Include="classlib\Filter\NonInv\LowPassFilterNonInverting.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\objects\02\a7f2d44f7cf26b304d9ccc408aa918e6764b99" />
+    <None Include=".git\objects\03\c48ce405b0f579cc4171a4e8abc7cc9de924c5" />
+    <None Include=".git\objects\07\3cf46c731f61b630016bff978d31c3eba39c6b" />
+    <None Include=".git\objects\08\8ef15b293b62b64618f2a7cf265583ecd8e61a" />
+    <None Include=".git\objects\09\0a54946269af77513de5b0d2d44530a973229a" />
+    <None Include=".git\objects\09\dd2aadbd375a2d15ee3b53a65c9b7a1619ad03" />
+    <None Include=".git\objects\13\762638fa494aa196d357f627b140d8588ad891" />
+    <None Include=".git\objects\20\f144177bd7f76b09baa79ce12458a245babfa8" />
+    <None Include=".git\objects\27\cb85467015e33952525948f2bda5283ba4caf1" />
+    <None Include=".git\objects\28\158aa9c1af6f213551cf37151be47b8c7cd919" />
+    <None Include=".git\objects\29\0a4ec307d711609ac99251f592a6a553c8f00b" />
+    <None Include=".git\objects\2b\97696b7ae0c08361c326a21eba0482bd9e1a00" />
+    <None Include=".git\objects\36\203c728faac8d3779420bb7896ee93b49c7106" />
+    <None Include=".git\objects\3c\b466069e733d674e9972983d0fa3b17ca0db5f" />
+    <None Include=".git\objects\3d\c06ef3cc4057524bf5d2cd49936dff789cebe8" />
+    <None Include=".git\objects\40\7d76c7d2765c4011507cb8626002041f28a863" />
+    <None Include=".git\objects\42\ecc991844a6f29e9ad03a9a24d57ea4524310a" />
+    <None Include=".git\objects\43\77ced4a7f481c5594cd50a60a5a5e0acfdda44" />
+    <None Include=".git\objects\44\8c280d80c3bc427fcba3fa0f0e15d1ca157f30" />
+    <None Include=".git\objects\44\e10d949ab5ccf56c4db0b54084497bdde7c43a" />
+    <None Include=".git\objects\46\82cf23bd423d025892a26b13c8c763876d8a5f" />
+    <None Include=".git\objects\4b\093177be72a326898df4b8ac4b7caa7a21c1bf" />
+    <None Include=".git\objects\51\ced07829825c941463a639ab8a9e806fa65d93" />
+    <None Include=".git\objects\56\033e1ab033e49b633c3f5d3f705a58c165b9ac" />
+    <None Include=".git\objects\57\1e9d058475b97640af3779785e220f50445c31" />
+    <None Include=".git\objects\57\f08a7186668b1b52f2469d3df232cefb42fd89" />
+    <None Include=".git\objects\5f\92123d206dcd4e208ddf9099293bb67a177903" />
+    <None Include=".git\objects\6e\a92522873208a145c2b69210e92e53b0e8986a" />
+    <None Include=".git\objects\73\a00747cefe977a979b89edbdf09e349157dc4f" />
+    <None Include=".git\objects\78\e8c57a18df50a38ef86be8aacdd3acd41ebc08" />
+    <None Include=".git\objects\82\4ce9e2884d2f8da8059ed8081c4cad562985e1" />
+    <None Include=".git\objects\85\78f3d03de56aa5afbb2e6a3f0a9055b075f7fd" />
+    <None Include=".git\objects\87\26d5939a8aa4f27b9e54f5e52994f2ee65b92c" />
+    <None Include=".git\objects\91\c1eb8e5759d37edc3390e3441ad022aec10694" />
+    <None Include=".git\objects\93\67b69dcf0f01c425d9fee812bdc8000b18e5ad" />
+    <None Include=".git\objects\a0\bd7529ecc11169b8be07e905b3e29e6e9f5f93" />
+    <None Include=".git\objects\b2\2c2af61191af27e4d75d5c9209779e50918bbd" />
+    <None Include=".git\objects\b6\a5a9ef917a45af26e18afd0bec08f5c9165755" />
+    <None Include=".git\objects\b7\ae9cd4961153735df09f489547ac03f8cb6e5c" />
+    <None Include=".git\objects\b9\92883c68ec8ca7f57b6d4a0706081ffe152dba" />
+    <None Include=".git\objects\bb\b78079b87e8d667cf7c3e1f3412f7ede4c427d" />
+    <None Include=".git\objects\c1\61d6d47f0a7df61634857e0b6c4ccae63b9fa8" />
+    <None Include=".git\objects\c1\fa954f538079ebb7862fdc4bb07c0a6eeef7db" />
+    <None Include=".git\objects\c2\198e78fea09f09c0b702388f5b2606efa0f79f" />
+    <None Include=".git\objects\c3\91a422f05975a67712a420b778aaf6001176b7" />
+    <None Include=".git\objects\c4\35c3cdf8e6551edb307dde15348ffa51574b38" />
+    <None Include=".git\objects\c9\2bd335130782495895a5ed82661a2cd84fbe8e" />
+    <None Include=".git\objects\cc\b61a10b14ccae1dd550826c0b2244bd5d9e5e5" />
+    <None Include=".git\objects\d0\2910912e6cc22dfcc2adf31f694dfea7ff9bb6" />
+    <None Include=".git\objects\d0\aea8ad1b5afd8c3730663e95772eaf6ed3d7f3" />
+    <None Include=".git\objects\d2\5f58e2ecb76e2a4753a9ff1e6475b11066b9ac" />
+    <None Include=".git\objects\e2\8f02e834cc09f86c5a5b6b3bf9b45d49633df2" />
+    <None Include=".git\objects\e3\3c50dafc72075f446b0976aa5d7cad7e4c0b60" />
+    <None Include=".git\objects\e3\d2853f121ead4f614e735d19a56f514d0236b5" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\ed\0f5c3164bbd08688b6d62129317f2ea1c9706d" />
+    <None Include=".git\objects\ef\67a53548dc12ba6f4e7a2ae8d9a9199d7bbefd" />
+    <None Include=".git\objects\f0\65b84d529412ce18e9d5c709c80e80128380bd" />
+    <None Include=".git\objects\f6\edda05aeedcc3e2e7cd77c20948955ba0864d2" />
+    <None Include=".git\objects\f8\d32ccf8c842cb65100f41aa168c5a3bae237af" />
+    <None Include=".git\objects\f9\f755e59b7796e653186c59300797e51fbbc3e6" />
+    <None Include=".git\objects\fc\ed96993dc6a795806509465d68c2a1f4f60fdb" />
+    <None Include=".git\refs\heads\master" />
+    <None Include="App.config" />
+    <None Include="Dokumentation.pdf" />
+    <None Include="LICENSE" />
+    <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\activfilterschematic.jpg" />
+    <Content Include="img\InvSchema.jpg" />
+    <Content Include="img\nonInvSchema.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="CSV\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
