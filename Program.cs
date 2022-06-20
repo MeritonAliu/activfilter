@@ -3,16 +3,13 @@
 *
 *
 */
-using activfilter.classlib.FilterClass;
-using activfilter.classlib.FilterConsole;
+using activfilter;
 using System;
 
 class Programm
 {
     public static void Main()
     {
-        FilterConsole.MainMenue();
-
         //Create instances of all non inverting classes
         BandPassFilterNonInverting BPnonINV = new BandPassFilterNonInverting(1592, 0.0000001, 1592, 0.000000001);
         HighPassFilterNonInverting HPnonINV = new HighPassFilterNonInverting(1592, 0.0000001, 1592);
@@ -34,8 +31,8 @@ class Programm
        
         //test to show gain and phase at any frequency
         //just change the object and the frequency
-        Console.WriteLine(HPnonINV.runGainCalculation(1500));
-        Console.WriteLine(HPnonINV.runPhaseCalculation(1500));
+        Console.WriteLine(HPnonINV.runGainCalculation(3333));
+        Console.WriteLine(HPnonINV.runPhaseCalculation(3333));
 
         //stops console from closing
         Console.ReadLine();

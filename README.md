@@ -4,19 +4,18 @@ Sie erstellen in 2er-Gruppen eine Klasse, welche das Verhalten eines aktiven Fil
 Zudem erstellen Sie ein einfaches Programm (Hauptprogramm), um die Funktion ihres Filters zu testen.
 
 ### Programm
-Im Projektverzeichnis folgendes eingeben um das Programm zu starten:
-```
-dotnet run
-```
-Unser Programm enthält invertierende sowie nicht invertierende Filter der Kategorie Tiefpass, Hochpass und Bandpass. Dabei haben wir eine Oberklasse Filter.cs erstellt, welche alle gemeinsamen Daten und berechnungen enthält. Diese wird dann an alle 6 Unterklassen vererbt, welche sich nur bei den Konstruktoren, Verstärkungs- und Phasenberechnung unterscheiden.
+- Zwei Methoden um das programm zu starten:
+  1. In Visual Studio öffnen und durchlaufen lassen.
+  2. Per CMD Projektöffnen und dotnet build eingeben, im bin/Debug verzeichniss dann activfilter.exe starten.
 
-Sobald ein Filter seine Parameter erhält (Frequenz, Widerstände und Kondensatoren), wird bei der funktion public void runBodePlot() ein Bode Diagramm simuliert. 
-Der Filter wird von 20Hz bis 10MHz simuliert. Dabei werden die Verstärkung und die Phasenverschiebung im Gradmass in der Konsole angezeigt. Dazu wird noch unter /CSV im jeweiligen File des Filter ein CSV erstellt. Mit dem kann man die Simulation dann in Excel aufmachen, und z.B. einen Graph dazu erstellen.
+- Das Programm erstellt zu allen Filter jeweils eine CSV Datei.
+- Insgesamt enthalten sind 6 Filter: BP, HP, TP jeweils invertiert und nicht invertierend.
+- Schema der Filter unter /img zu finden.
+- Die Mutterklasse, bei /Filter, entählt alle Daten welche alle Filter benutzen können, alle unteren 6 Filterklassen erben von dieser Klasse, zu finden unter Filter/Inv oder Filter/NonInv.
+- Verstärkung und Phasengang von OPV wurden mit berechnet.
+- Mit Objekt.runBodePlot(); kann eine Simulation vom Amplituden und Phasengang logarithmisch erstellt werden von 1Hz bis 10MHz, ausser MaxFreqBodePlot wird umgestellt.
+- Mit Objekt.runGainCalculation(Frequenz); und Objekt.runPhaseCalculation(Frequenz)); können Phase und Amplitude einzeln ausgegeben werden.
 
-
-Während der ganzen Entwicklung haben wir git als Versionsverwaltungstool verwendet. Das Projekt ist auch auf [GitHub](https://github.com/MeritonAliu/activfilter) zu finden.
-
-Die OPV Tiefpasscharakteristik wird bei der Verstärkung berücksichtigt, bei der Phasenverschiebung jedoch nicht.
 
 ### Schemas
 <p align="left">

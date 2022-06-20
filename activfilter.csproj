@@ -68,14 +68,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="classlib\Filter\Console\ConsoleClass.cs" />
-    <Compile Include="classlib\Filter\Filter.cs" />
-    <Compile Include="classlib\Filter\Inv\BandPassFilterInverting.cs" />
-    <Compile Include="classlib\Filter\Inv\HighPassFilterInverting.cs" />
-    <Compile Include="classlib\Filter\Inv\LowPassFilterInverting.cs" />
-    <Compile Include="classlib\Filter\NonInv\BandPassFilterNonInverting.cs" />
-    <Compile Include="classlib\Filter\NonInv\HighPassFilterNonInverting.cs" />
-    <Compile Include="classlib\Filter\NonInv\LowPassFilterNonInverting.cs" />
+    <Compile Include="Filter\Filter.cs" />
+    <Compile Include="Filter\Inv\BandPassFilterInverting.cs" />
+    <Compile Include="Filter\Inv\HighPassFilterInverting.cs" />
+    <Compile Include="Filter\Inv\LowPassFilterInverting.cs" />
+    <Compile Include="Filter\NonInv\BandPassFilterNonInverting.cs" />
+    <Compile Include="Filter\NonInv\HighPassFilterNonInverting.cs" />
+    <Compile Include="Filter\NonInv\LowPassFilterNonInverting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

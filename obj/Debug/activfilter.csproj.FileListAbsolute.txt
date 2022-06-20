@@ -1,0 +1,75 @@
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\activfilter.exe.config
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\activfilter.exe
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\activfilter.pdb
+C:\Users\meriton.aliu\source\repos\activfilter\obj\Debug\activfilter.csproj.AssemblyReference.cache
+C:\Users\meriton.aliu\source\repos\activfilter\obj\Debug\activfilter.csproj.CoreCompileInputs.cache
+C:\Users\meriton.aliu\source\repos\activfilter\obj\Debug\activfilter.exe
+C:\Users\meriton.aliu\source\repos\activfilter\obj\Debug\activfilter.pdb
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\CsvHelper.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Buffers.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Memory.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\CsvHelper.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Buffers.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Memory.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\meriton.aliu\source\repos\activfilter\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\meriton.aliu\source\repos\activfilter\obj\Debug\activfilter.csproj.SuggestedBindingRedirects.cache
+C:\Users\meriton.aliu\source\repos\activfilter\obj\Debug\activfilter.csproj.CopyComplete
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\activfilter.exe.config
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\activfilter.exe
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\activfilter.pdb
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\CsvHelper.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Buffers.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Memory.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\CsvHelper.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Buffers.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Memory.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\obj\Debug\activfilter.csproj.AssemblyReference.cache
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\obj\Debug\activfilter.csproj.SuggestedBindingRedirects.cache
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\obj\Debug\activfilter.csproj.CoreCompileInputs.cache
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\obj\Debug\activfilter.csproj.CopyComplete
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\obj\Debug\activfilter.exe
+C:\Users\tonia\Documents\toni\BFSU\HST-Hard&Softwaretechnik\3 Lehrjahr Maeder\xHST_3_OOP\activfilter\obj\Debug\activfilter.pdb
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\activfilter.exe.config
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\activfilter.exe
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\activfilter.pdb
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\CsvHelper.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Buffers.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Memory.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\CsvHelper.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Buffers.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Memory.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\obj\Debug\activfilter.csproj.AssemblyReference.cache
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\obj\Debug\activfilter.csproj.CoreCompileInputs.cache
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\obj\Debug\activfilter.csproj.CopyComplete
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\obj\Debug\activfilter.exe
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\obj\Debug\activfilter.pdb
+C:\Users\meriton.aliu\OneDrive - Bruker Physik GmbH\Desktop\activfilter\obj\Debug\activfilter.csproj.SuggestedBindingRedirects.cache
